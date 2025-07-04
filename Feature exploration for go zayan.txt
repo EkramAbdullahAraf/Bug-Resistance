@@ -1,0 +1,99 @@
+
+1. Destination Search Field
+Description: Users can type a location to search for destinations.
+
+Test Ideas:
+
+Typing partial names (e.g., "Kua" shows "Kuakata")
+
+Autocomplete suggestions work properly
+
+Case-insensitive search
+
+Search for countries, cities, or regions
+
+No results message for unknown locations
+
+2. Categorized Destination Lists
+Description: Popular destinations, recent searches, or nearby locations may be shown.
+
+Test Ideas:
+
+Are "Popular destinations" updated dynamically?
+
+Are "Recent searches" stored per user?
+
+Is location-based suggestion available (if GPS is used)?
+
+3. Use Current Location
+Description: App/browser fetches current location for suggestions.
+
+Test Ideas:
+
+Allow/block location permission behavior
+
+Fallback if location can't be fetched
+
+Is default location set properly if permission denied?
+
+4. Departure & Arrival Fields (Round Trip/One Way)
+Description: Allows selection of both "From" and "To" destinations.
+
+Test Ideas:
+
+Can't select same location for both fields
+
+Swapping From/To fields
+
+Country-to-country and domestic routes handled correctly
+
+5. Destination List Filters
+Description: May include filtering by region, type (beach, city, etc.), or visa availability.
+
+Test Ideas:
+
+Filtering updates results in real time
+
+Multi-select filter functionality
+
+Reset filter option working correctly
+
+6. Mobile Responsiveness
+Description: Destination selection should work properly on all screen sizes.
+
+Test Ideas:
+
+Check tap targets for mobile users
+
+Dropdown, keyboard behavior on Android/iOS
+
+Scroll and select smoothness
+
+7. Multilingual Support
+Description: Available in Bangla and English.
+
+Test Ideas:
+
+Switching languages updates place names and UI properly
+
+No truncation or overlap in translated text
+
+8. Visa Availability or Alerts
+Description: Some destinations may show alerts (e.g., "Visa Required" or "Travel Ban").
+
+Test Ideas:
+
+Correct information per country
+
+Link to visa support pages
+
+Real-time updates reflected
+
+9. Deep Linking / Shareable URLs
+Description: Selecting a destination might change URL for bookmarking or sharing.
+
+Test Ideas:
+
+Shared links open the right destination pre-selected
+
+Back button behavior works correctly
